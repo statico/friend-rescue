@@ -5,6 +5,10 @@ This is Friend Rescue, an App Engine-hosted Flash-based shooter for Facebook.
 * [Play on Facebook](http://apps.facebook.com/friendrescue/)
 * [Play non-Facebook debug version](http://x.langworth.com/friendrescue-nonfb/)
 
+My sincere apologies for the lack of documentation. I blasted this project out
+in two months. I was so sick of working on it afterwards that I never wanted to
+touch it again. Hopefully, however, you'll find some use for it.
+
 ActionScript source code and assets are copyright 2010 Ian Langworth.
 
 Most of the graphics were derived from the [Sinistar clone graphics](http://www.lostgarden.com/2005/03/download-complete-set-of-sweet-8-bit.html) package
