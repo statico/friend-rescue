@@ -1,4 +1,4 @@
-This is Friend Rescue, an App Engine-hosted Flash-based shooter for Facebook.
+This is Friend Rescue, an App Engine-hosted Flash-based shooter for Facebook. Compiling it requires the [Flex 3 SDK](http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK) and the [as3corelib library](http://github.com/mikechambers/as3corelib).
 
 <img src="http://imgur.com/egi6o.png" alt="Hosted by imgur.com" />
 
