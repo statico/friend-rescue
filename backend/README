@@ -1,0 +1,17 @@
+Backend for Friend Rescue.
+
+Social backends were planned for both Facebook and OpenSocial. Only the
+Facebook backend was implemented.
+
+colubrid, simplejson and swfobject are copyright their respective owners. They
+are included because I wanted this application to be as complete as possible.
+
+  colubrid - http://wsgiarea.pocoo.org/colubrid/
+
+  simplejson - http://code.google.com/p/simplejson/
+
+  swfobject - http://code.google.com/p/swfobject/
+
+facebook.py is a bare-bones Facebook Platform library I created based off of
+whatever else is out there. At the time it was created (2008), the existing
+libraries didn't have clean APIs.

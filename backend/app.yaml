@@ -1,0 +1,31 @@
+application: tc-friend-rescue
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /images
+  static_dir: images
+
+- url: /FriendRescue-debug.swf
+  static_files: ../bin-debug/FriendRescue.swf
+  upload: ../bin-debug/FriendRescue.swf
+
+- url: /FriendRescue.swf
+  static_files: deploy/FriendRescue.swf
+  upload: deploy/FriendRescue.swf
+
+- url: /swfobject.js
+  static_files: swfobject.js
+  upload: swfobject.js
+
+- url: /fb/.*
+  script: fb.py
+
+- url: /admin/.*
+  script: admin.py
+  login: admin
+
+- url: .*
+  script: redirect.py

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>${title}</title>
+<style type="text/css">
+body, html {
+    height: 95%;
+    font-family: sans-serif;
+    text-align: center;
+}
+body {
+    background: #333;
+    font-family: monospace;
+}
+body, a {
+    color: #fff;
+}
+div {
+    width: 100%;
+}
+</style>
+<script type="text/javascript">
+	window.onload = function() {
+		document.getElementById('${application}').focus();
+	};
+</script>
+</head>
+<body>
+
+<!-- props to http://www.jakpsatweb.cz/css/css-vertical-center-solution.html -->
+<div style="display: table; height: 95%; #position: relative">
+<div style="#position: absolute; #top: 50%;display: table-cell; vertical-align: middle">
+<div style="#position: relative; #top: -50%">
+
+<h1>shooter rough cut</h1>
+<p>Click the game once, then use the <code>W A S D</code> keys to fire.
+<br/>It starts slow and slowly builds up. Good luck!</p>
+
+<object width="${width}" height="${height}" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+	<param name="movie" value="${swf}.swf" />
+	<param name="quality" value="low" />
+	<param name="bgcolor" value="${bgcolor}" />
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="flashvars" value="localhost=1" />
+	<embed id="${application}" src="${swf}.swf" quality="high" bgcolor="${bgcolor}"
+		width="${width}" height="${height}" align="middle"
+		play="true"
+		loop="false"
+		quality="low"
+		allowScriptAccess="sameDomain"
+		flashvars="localhost=1"
+		type="application/x-shockwave-flash"
+		pluginspage="http://www.adobe.com/go/getflashplayer">
+	</embed>
+</object>
+
+<p>&copy; 2008 <a href="http://www.tremendous-creations.com/">Tremendous Creations</a></p>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>
