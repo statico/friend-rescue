@@ -1,9 +1,11 @@
-This is Friend Rescue, an App Engine-hosted Flash-based shooter for Facebook. Compiling it requires the [Flex 3 SDK](http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK) and the [as3corelib library](http://github.com/mikechambers/as3corelib).
+This is Friend Rescue, an App Engine-hosted Flash-based shooter for Facebook.
 
 <img src="http://imgur.com/egi6o.png" alt="Hosted by imgur.com" />
 
-* [Play on Facebook](http://apps.facebook.com/friendrescue/)
-* [Play non-Facebook debug version](http://x.langworth.com/friendrescue-nonfb/)
+You can [play it on Facebook](http://apps.facebook.com/friendrescue/) or
+[play the non-Facebook debug version](http://x.langworth.com/friendrescue-nonfb/).
+
+Compiling it requires the [Flex 3 SDK](http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK) and the [as3corelib library](http://github.com/mikechambers/as3corelib).
 
 My sincere apologies for the lack of documentation. I blasted this project out
 in two months. I was so sick of working on it afterwards that I never wanted to
