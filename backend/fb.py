@@ -25,11 +25,11 @@ devmode = os.environ.get('SERVER_SOFTWARE', '').startswith('Devel')
 if devmode:
   # Local App Development
   API_KEY = '33f757200284ca38867e8695d5ab850f'
-  SECRET_KEY = '740be438066fda7c6a642322855ba06d'
+  SECRET_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 else:
   # Friend Rescue
   API_KEY = 'dc2381768401ab97116e1c4c08f4cb38'
-  SECRET_KEY = 'e7839ccf1ecf926ffa2513753c7933be'
+  SECRET_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 ADD_APP_URL = 'http://www.facebook.com/add.php?api_key=' + API_KEY
 MAIN_APP_URL = 'http://apps.facebook.com/friendrescue/'
